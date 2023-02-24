@@ -1,16 +1,14 @@
 #include <stdio.h>
-#include <ctype.h>
 /**
- * _isupper - A function that works
- * @c: Must be an integer
+ * _isupper - Works for checking upper
+ * @c: check fot int
  *
- * Description: Takes an argument and checks if its uppercase
- *
- * Return: Always 1 (Success)
+ * Description: Maybe works
+ * Return: 0 (failure) or 1 (success)
  */
 int _isupper(int c)
 {
-	if (isupper(c))
+	if (c >= 65 && c < 97)
 	{
 		return (1);
 	}
@@ -18,4 +16,5 @@ int _isupper(int c)
 	{
 		return (0);
 	}
+	return (0);
 }
