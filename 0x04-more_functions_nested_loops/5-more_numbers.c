@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * print_numbers - Works for checking upper
+ * more_numbers - Works for checking upper
  *
  * Description: Maybe works
  */
