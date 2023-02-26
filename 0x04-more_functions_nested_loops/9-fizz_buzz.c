@@ -27,7 +27,8 @@ void fizzbuzz(void)
 		{
 			printf("%d", c);
 		}
-		printf(" ");
+		if (c != 100)
+			printf(" ");
 	}
 	printf("\n");
 }
