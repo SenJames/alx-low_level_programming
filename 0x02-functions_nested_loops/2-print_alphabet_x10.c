@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * print_alphabet - Works for checking upper
+ * print_alphabet_x10 - Works for checking upper
  *
  * Description: Maybe works
  */
